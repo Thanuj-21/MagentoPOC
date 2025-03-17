@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="27.035145">
+<testsuite name="test.spec.js" timestamp="2025-03-13T17:18:26.068Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.813" errors="0">
+<testcase name="OrangeHRM" classname="test.spec.js" time="21.813">
+</testcase>
+</testsuite>
+<testsuite name="test2.spec.js" timestamp="2025-03-13T17:18:26.068Z" hostname="chromium" tests="1" failures="0" skipped="0" time="15.385" errors="0">
+<testcase name="lauch browser" classname="test2.spec.js" time="15.385">
+</testcase>
+</testsuite>
+</testsuites>
