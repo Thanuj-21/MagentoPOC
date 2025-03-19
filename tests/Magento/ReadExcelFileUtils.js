@@ -6,7 +6,7 @@ const excelFolderPath = 'C:/Users/2303723/OneDrive - Cognizant/Desktop/Playwrigh
 
 export function readDataFromExcelFile(fileName) {
   const fullPath = excelFolderPath + fileName;
-  console.log(`READING XLSX FILE ${fullPath}`)
+  // console.log(`READING XLSX FILE ${fullPath}`)
 //   if (!fs.existsSync(fullPath)) {
 //     throw new Error(`CANNOT FIND FILE ${fullPath}. PLEASE MAKE SURE IT EXISTS!`);
 //   }
