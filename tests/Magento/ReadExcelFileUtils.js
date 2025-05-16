@@ -1,4 +1,5 @@
 import * as fs from 'fs';
+import { type } from 'os';
 import path from 'path';
 import XLSX from 'xlsx';
 

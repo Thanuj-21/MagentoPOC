@@ -49,8 +49,19 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] ,
-      // viewport:{width:1920,height:1080}
+      viewport:{width:1920,height:1080}
     }
+    },
+    {
+        name:'globalsetup',
+        testDir:'./',
+        testMatch:'globalsetup.spec.ts',
+        teardown:'globalTeardown'
+    },
+    {
+          name:'globalTeardown',
+          testDir:'./',
+          testMatch:'globaltear.spec.ts'
     },
 
     // {
